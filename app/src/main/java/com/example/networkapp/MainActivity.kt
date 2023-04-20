@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity() {
             })
         )
     }
+    //2nd branch
 
     private fun showComic (comicObject: JSONObject) {
         titleTextView.text = comicObject.getString("title")
